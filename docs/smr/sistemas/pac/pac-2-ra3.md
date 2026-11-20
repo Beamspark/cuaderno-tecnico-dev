@@ -30,7 +30,7 @@ lsb_release -a
 
 <figure markdown="span" style="margin: 1.5em 0; text-align: center;">
 
-![Instalación de Ubuntu 26 y comando lsb_release](../../img/sistemas/pac/Ub26 install Git.jpg)
+![Instalación de Ubuntu 26 y comando lsb_release](../../img/sistemas/pac/ub26-ins.png)
 
 <figcaption>Ventana de la máquina virtual en VirtualBox mostrando la versión de Ubuntu 26.04.1 LTS en terminal</figcaption>
 </figure>
@@ -51,7 +51,7 @@ VBoxControl -v
 
 <figure markdown="span" style="margin: 1.5em 0; text-align: center;">
 
-![Comprobación de Guest Additions en Ubuntu 26](../../img/sistemas/pac/Ub26 Guest.jpg)
+![Comprobación de Guest Additions en Ubuntu 26](../../img/sistemas/pac/ub26-guest.png)
 
 <figcaption>Ubuntu 26.04.1 LTS en modo pantalla completa mostrando la versión de VirtualBox Guest Additions (7.2.22) en consola</figcaption>
 </figure>
