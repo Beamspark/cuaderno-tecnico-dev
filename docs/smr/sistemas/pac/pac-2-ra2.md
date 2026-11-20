@@ -28,7 +28,7 @@ Instalación de Windows 11 en la máquina virtual cumpliendo con la nomenclatura
 
 <figure markdown="span" style="margin: 1.5em 0; text-align: center;">
 
-![Instalación de Windows 11 y comando systeminfo](../../img/ofimatica/pac/w11-ins.png)
+![Instalación de Windows 11 y comando systeminfo](../../img/sistemas/pac/w11-ins.png)
 
 <figcaption>Escritorio anfitrión y ventana de la máquina virtual con la versión de Windows 11 en consola</figcaption>
 </figure>
@@ -50,7 +50,7 @@ VBoxControl.exe -v
 
 <figure markdown="span" style="margin: 1.5em 0; text-align: center;">
 
-![Comprobación de Guest Additions](../../img/ofimatica/pac/w11-guest.png)
+![Comprobación de Guest Additions](../../img/sistemas/pac/w11-guest.png)
 
 <figcaption>Comprobación de la versión de VirtualBox Guest Additions (7.2.22) en pantalla completa</figcaption>
 </figure>
