@@ -44,17 +44,77 @@ Marina está por comenzar su carrera en un campo profesional específico. ¿Cuá
 ---
 
 ### Pregunta 2
-Identifica si cada elemento corresponde al **perfil exigible** (lo que demanda el puesto o titulación) o al **perfil disponible** (lo que posee actualmente la persona candidata):
+Identifica si se trata del **perfil exigible** o **perfil disponible**:
 
-| Elemento | Clasificación Correcta | Explicación |
-| :--- | :--- | :--- |
-| **1. Habilidades específicas** | **Perfil exigible** | Competencias técnicas concretas que el puesto o la titulación requieren dominar para ejecutar las tareas del rol. |
-| **2. Experiencia laboral** | **Perfil disponible** | Trayectoria profesional real acumulada previamente por la persona trabajadora en su historial. |
-| **3. Requisitos académicos** | **Perfil exigible** | Titulación oficial o nivel formativo mínimo establecido como condición de acceso por la oferta o plan de estudios. |
-| **4. Habilidades generales** | **Perfil exigible** | Competencias transversales (comunicación, organización, resolución de problemas) demandadas por el entorno laboral del puesto. |
-| **5. Formación académica** | **Perfil disponible** | Títulos, certificaciones y estudios reglados o no reglados que el candidato ya ha cursado y acreditado. |
+<div class="quiz-match-item">
+  <span class="match-prompt">1. Habilidades específicas:</span>
+  <select class="quiz-select" data-ans="Perfil exigible">
+    <option value="">-- Seleccionar --</option>
+    <option value="Perfil exigible">Perfil exigible</option>
+    <option value="Perfil disponible">Perfil disponible</option>
+  </select>
+  <button type="button" class="quiz-btn-confirm">Check</button>
+  <div class="feedback" style="display: none;">
+    <div class="feedback-title">✓ Correcto: Perfil exigible</div>
+    Son las competencias técnicas concretas que demanda el puesto de trabajo o la titulación académica para poder desempeñar el rol.
+  </div>
+</div>
 
-> **Clave conceptual:** El **perfil exigible** reúne los requisitos que impone el mercado o el puesto de trabajo (*requisitos académicos, habilidades específicas y generales requeridas*), mientras que el **perfil disponible** refleja el bagaje real con el que cuenta el candidato (*su formación académica y experiencia laboral previas*).
+<div class="quiz-match-item">
+  <span class="match-prompt">2. Experiencia laboral:</span>
+  <select class="quiz-select" data-ans="Perfil disponible">
+    <option value="">-- Seleccionar --</option>
+    <option value="Perfil exigible">Perfil exigible</option>
+    <option value="Perfil disponible">Perfil disponible</option>
+  </select>
+  <button type="button" class="quiz-btn-confirm">Check</button>
+  <div class="feedback" style="display: none;">
+    <div class="feedback-title">✓ Correcto: Perfil disponible</div>
+    Corresponde a la trayectoria profesional real que ya ha acumulado previamente la persona candidata en su historial.
+  </div>
+</div>
+
+<div class="quiz-match-item">
+  <span class="match-prompt">3. Requisitos académicos:</span>
+  <select class="quiz-select" data-ans="Perfil exigible">
+    <option value="">-- Seleccionar --</option>
+    <option value="Perfil exigible">Perfil exigible</option>
+    <option value="Perfil disponible">Perfil disponible</option>
+  </select>
+  <button type="button" class="quiz-btn-confirm">Check</button>
+  <div class="feedback" style="display: none;">
+    <div class="feedback-title">✓ Correcto: Perfil exigible</div>
+    Titulación oficial o nivel formativo mínimo establecido como condición de acceso por la oferta de empleo o plan de estudios.
+  </div>
+</div>
+
+<div class="quiz-match-item">
+  <span class="match-prompt">4. Habilidades generales:</span>
+  <select class="quiz-select" data-ans="Perfil exigible">
+    <option value="">-- Seleccionar --</option>
+    <option value="Perfil exigible">Perfil exigible</option>
+    <option value="Perfil disponible">Perfil disponible</option>
+  </select>
+  <button type="button" class="quiz-btn-confirm">Check</button>
+  <div class="feedback" style="display: none;">
+    <div class="feedback-title">✓ Correcto: Perfil exigible</div>
+    Competencias transversales (comunicación, organización, trabajo en equipo) requeridas por el entorno laboral del puesto.
+  </div>
+</div>
+
+<div class="quiz-match-item">
+  <span class="match-prompt">5. Formación académica:</span>
+  <select class="quiz-select" data-ans="Perfil disponible">
+    <option value="">-- Seleccionar --</option>
+    <option value="Perfil exigible">Perfil exigible</option>
+    <option value="Perfil disponible">Perfil disponible</option>
+  </select>
+  <button type="button" class="quiz-btn-confirm">Check</button>
+  <div class="feedback" style="display: none;">
+    <div class="feedback-title">✓ Correcto: Perfil disponible</div>
+    Son los títulos, certificaciones y estudios reglados o no reglados que el candidato ya posee y puede acreditar.
+  </div>
+</div>
 
 ---
 
