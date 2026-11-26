@@ -113,92 +113,94 @@ Alberto tiene que realizar su balance profesional, relaciona a continuación:
 ---
 
 ### Pregunta 3
-Una vez Alberto tiene claro su perfil, el siguiente paso es investigar el mercado laboral. Aquí es donde va a observar las oportunidades disponibles y cómo se alinean con sus expectativas. Para ello, debe: *(respuesta múltiple)*
+Una vez Alberto tiene claro su perfil, el siguiente paso es investigar el mercado laboral. Aquí es donde va a observar las oportunidades disponibles y cómo se alinean con sus expectativas. Para ello, debe:
 
-<details class="quiz-option correct">
-  <summary>A) Revisar ofertas de empleo</summary>
-  <div class="feedback">
-    <div class="feedback-title">✓ ¡Exacto! (Opción correcta 1/3)</div>
-    Analizar vacantes reales permite conocer los requisitos exigidos, rangos salariales y perfiles más demandados en el momento actual.
+<div class="quiz-multi" data-expected="3">
+  <div class="quiz-multi-options">
+    <label class="quiz-multi-option correct">
+      <span><input type="checkbox" data-opt="A"> A) Revisar ofertas de empleo</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✓ ¡Correcta!</div>
+        Analizar vacantes reales permite conocer los requisitos exigidos, rangos salariales y perfiles más demandados en el momento actual.
+      </div>
+    </label>
+    <label class="quiz-multi-option correct">
+      <span><input type="checkbox" data-opt="B"> B) Buscar información sobre sectores en crecimiento</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✓ ¡Correcta!</div>
+        Detectar actividades económicas en expansión ayuda a orientar la búsqueda hacia nichos con mayor proyección y estabilidad laboral.
+      </div>
+    </label>
+    <label class="quiz-multi-option correct">
+      <span><input type="checkbox" data-opt="C"> C) Identificar empresas de interés</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✓ ¡Correcta!</div>
+        Seleccionar organizaciones alineadas con los valores y competencias propias facilita estrategias de autocandidatura y seguimiento activo.
+      </div>
+    </label>
+    <label class="quiz-multi-option incorrect">
+      <span><input type="checkbox" data-opt="D"> D) Redactar un Currículum vitae</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✗ Incorrecta</div>
+        La elaboración del CV forma parte de la fase posterior de preparación de herramientas de búsqueda, tras haber analizado el mercado.
+      </div>
+    </label>
+    <label class="quiz-multi-option incorrect">
+      <span><input type="checkbox" data-opt="E"> E) Recurrir a empresas de trabajo temporal</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✗ Incorrecta</div>
+        Es un canal concreto de intermediación laboral, no una acción de investigación y análisis estratégico del mercado.
+      </div>
+    </label>
   </div>
-</details>
-
-<details class="quiz-option correct">
-  <summary>B) Buscar información sobre sectores en crecimiento</summary>
-  <div class="feedback">
-    <div class="feedback-title">✓ ¡Exacto! (Opción correcta 2/3)</div>
-    Detectar actividades económicas en expansión ayuda a orientar la búsqueda hacia nichos con mayor proyección y estabilidad laboral.
-  </div>
-</details>
-
-<details class="quiz-option correct">
-  <summary>C) Identificar empresas de interés</summary>
-  <div class="feedback">
-    <div class="feedback-title">✓ ¡Exacto! (Opción correcta 3/3)</div>
-    Seleccionar organizaciones alineadas con los valores y competencias propias facilita estrategias de autocandidatura y seguimiento activo.
-  </div>
-</details>
-
-<details class="quiz-option incorrect">
-  <summary>D) Redactar un Currículum vitae</summary>
-  <div class="feedback">
-    <div class="feedback-title">✗ Incorrecto</div>
-    La elaboración del CV forma parte de la fase posterior de preparación de herramientas de búsqueda, tras haber analizado el mercado.
-  </div>
-</details>
-
-<details class="quiz-option incorrect">
-  <summary>E) Recurrir a empresas de trabajo temporal</summary>
-  <div class="feedback">
-    <div class="feedback-title">✗ Incorrecto</div>
-    Es un canal concreto de intermediación laboral, no una acción de investigación y análisis estratégico del mercado.
-  </div>
-</details>
+  <button type="button" class="quiz-btn-confirm">Comprobar selección</button>
+</div>
 
 ---
 
 ### Pregunta 4
-Una vez Alberto ha concretado sus expectativas de inserción laboral, el siguiente paso es establecer metas claras y un plan de acción. ¿Qué pasos debería seguir? *(respuesta múltiple)*
+Una vez Alberto ha concretado sus expectativas de inserción laboral, el siguiente paso es establecer metas claras y un plan de acción. ¿Qué pasos debería seguir?
 
-<details class="quiz-option correct">
-  <summary>A) Plan de acción</summary>
-  <div class="feedback">
-    <div class="feedback-title">✓ ¡Exacto! (Opción correcta 1/3)</div>
-    Define las tareas concretas, recursos necesarios y cronograma para alcanzar las metas fijadas.
+<div class="quiz-multi" data-expected="3">
+  <div class="quiz-multi-options">
+    <label class="quiz-multi-option correct">
+      <span><input type="checkbox" data-opt="A"> A) Plan de acción</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✓ ¡Correcta!</div>
+        Define las tareas concretas, recursos necesarios y cronograma para alcanzar las metas fijadas.
+      </div>
+    </label>
+    <label class="quiz-multi-option correct">
+      <span><input type="checkbox" data-opt="B"> B) Metas a corto, mediano y largo plazo</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✓ ¡Correcta!</div>
+        Desglosar el objetivo final en hitos temporales escalonados (SMART) facilita la ejecución y el seguimiento progresivo.
+      </div>
+    </label>
+    <label class="quiz-multi-option incorrect">
+      <span><input type="checkbox" data-opt="C"> C) Expectativas salariales y condiciones laborales</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✗ Incorrecta</div>
+        Corresponde a la etapa previa de concreción de expectativas de inserción, ya realizada antes de diseñar el plan.
+      </div>
+    </label>
+    <label class="quiz-multi-option correct">
+      <span><input type="checkbox" data-opt="D"> D) Flexibilidad y adaptación</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✓ ¡Correcta!</div>
+        Permite recalibrar la estrategia ante imprevistos, cambios en el mercado laboral o nuevos aprendizajes durante el proceso.
+      </div>
+    </label>
+    <label class="quiz-multi-option incorrect">
+      <span><input type="checkbox" data-opt="E"> E) Identificación de brechas</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✗ Incorrecta</div>
+        Pertenece al análisis comparativo previo entre el perfil disponible y el perfil exigible.
+      </div>
+    </label>
   </div>
-</details>
-
-<details class="quiz-option correct">
-  <summary>B) Metas a corto, mediano y largo plazo</summary>
-  <div class="feedback">
-    <div class="feedback-title">✓ ¡Exacto! (Opción correcta 2/3)</div>
-    Desglosar el objetivo final en hitos temporales escalonados (SMART) facilita la ejecución y el seguimiento progresivo.
-  </div>
-</details>
-
-<details class="quiz-option incorrect">
-  <summary>C) Expectativas salariales y condiciones laborales</summary>
-  <div class="feedback">
-    <div class="feedback-title">✗ Incorrecto</div>
-    Corresponde a la etapa previa de concreción de expectativas de inserción, ya realizada antes de diseñar el plan.
-  </div>
-</details>
-
-<details class="quiz-option correct">
-  <summary>D) Flexibilidad y adaptación</summary>
-  <div class="feedback">
-    <div class="feedback-title">✓ ¡Exacto! (Opción correcta 3/3)</div>
-    Permite recalibrar la estrategia ante imprevistos, cambios en el mercado laboral o nuevos aprendizajes durante el proceso.
-  </div>
-</details>
-
-<details class="quiz-option incorrect">
-  <summary>E) Identificación de brechas</summary>
-  <div class="feedback">
-    <div class="feedback-title">✗ Incorrecto</div>
-    Pertenece al análisis comparativo previo entre el perfil disponible y el perfil exigible.
-  </div>
-</details>
+  <button type="button" class="quiz-btn-confirm">Comprobar selección</button>
+</div>
 
 ---
 
@@ -351,97 +353,98 @@ Carlos está evaluando su perfil profesional y se pregunta qué aspectos debe co
 ---
 
 ### Pregunta 9
-Carlos está estableciendo sus objetivos profesionales y metas personales, esto le permitirá: *(respuesta múltiple)*
+Carlos está estableciendo sus objetivos profesionales y metas personales, esto le permitirá:
 
-<details class="quiz-option incorrect">
-  <summary>A) Investigar el campo profesional</summary>
-  <div class="feedback">
-    <div class="feedback-title">✗ Incorrecto</div>
-    La investigación del entorno laboral es una fase previa de análisis externo, no una función directa de la fijación de metas.
+<div class="quiz-multi" data-expected="3">
+  <div class="quiz-multi-options">
+    <label class="quiz-multi-option incorrect">
+      <span><input type="checkbox" data-opt="A"> A) Investigar el campo profesional</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✗ Incorrecta</div>
+        La investigación del entorno laboral es una fase previa de análisis externo, no una función directa de la fijación de metas.
+      </div>
+    </label>
+    <label class="quiz-multi-option correct">
+      <span><input type="checkbox" data-opt="B"> B) Motivarse</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✓ ¡Correcta!</div>
+        Tener metas claras aporta propósito y mantiene el compromiso y la constancia durante el desarrollo profesional.
+      </div>
+    </label>
+    <label class="quiz-multi-option incorrect">
+      <span><input type="checkbox" data-opt="C"> C) Autoconocerse</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✗ Incorrecta</div>
+        El autoconocimiento es el requisito previo sobre el que se construyen los objetivos, no su consecuencia.
+      </div>
+    </label>
+    <label class="quiz-multi-option correct">
+      <span><input type="checkbox" data-opt="D"> D) Medir el progreso</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✓ ¡Correcta!</div>
+        Los objetivos concretos sirven como referencia objetiva para evaluar cuánto se ha avanzado y realizar ajustes.
+      </div>
+    </label>
+    <label class="quiz-multi-option correct">
+      <span><input type="checkbox" data-opt="E"> E) Enfocar sus esfuerzos</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✓ ¡Correcta!</div>
+        Permite priorizar acciones de alto impacto y evitar dedicar tiempo a actividades que no acercan al objetivo.
+      </div>
+    </label>
   </div>
-</details>
-
-<details class="quiz-option correct">
-  <summary>B) Motivarse</summary>
-  <div class="feedback">
-    <div class="feedback-title">✓ ¡Exacto! (Opción correcta 1/3)</div>
-    Tener metas claras aporta propósito y mantiene el compromiso y la constancia durante el desarrollo profesional.
-  </div>
-</details>
-
-<details class="quiz-option incorrect">
-  <summary>C) Autoconocerse</summary>
-  <div class="feedback">
-    <div class="feedback-title">✗ Incorrecto</div>
-    El autoconocimiento es el requisito previo sobre el que se construyen los objetivos, no su consecuencia.
-  </div>
-</details>
-
-<details class="quiz-option correct">
-  <summary>D) Medir el progreso</summary>
-  <div class="feedback">
-    <div class="feedback-title">✓ ¡Exacto! (Opción correcta 2/3)</div>
-    Los objetivos concretos sirven como referencia objetiva para evaluar cuánto se ha avanzado y realizar ajustes.
-  </div>
-</details>
-
-<details class="quiz-option correct">
-  <summary>E) Enfocar sus esfuerzos</summary>
-  <div class="feedback">
-    <div class="feedback-title">✓ ¡Exacto! (Opción correcta 3/3)</div>
-    Permite priorizar acciones de alto impacto y evitar dedicar tiempo a actividades que no acercan al objetivo.
-  </div>
-</details>
+  <button type="button" class="quiz-btn-confirm">Comprobar selección</button>
+</div>
 
 ---
 
 ### Pregunta 10
-Carlos va a realizar su primera entrevista de trabajo, ¿qué aspectos debe evitar? *(respuesta múltiple)*
+Carlos va a realizar su primera entrevista de trabajo, ¿qué aspectos debe evitar?
 
-<details class="quiz-option incorrect">
-  <summary>A) Comunicación efectiva</summary>
-  <div class="feedback">
-    <div class="feedback-title">✗ Debe potenciarlo</div>
-    Expresarse con claridad, coherencia y escucha activa es clave para superar con éxito la entrevista.
+<div class="quiz-multi" data-expected="3">
+  <div class="quiz-multi-options">
+    <label class="quiz-multi-option incorrect">
+      <span><input type="checkbox" data-opt="A"> A) Comunicación efectiva</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✗ Incorrecta</div>
+        Debe potenciarlo: expresarse con claridad, coherencia y escucha activa es clave para superar con éxito la entrevista.
+      </div>
+    </label>
+    <label class="quiz-multi-option correct">
+      <span><input type="checkbox" data-opt="B"> B) Falta de preparación</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✓ ¡Correcta!</div>
+        Acudir sin haber repasado el propio CV, el puesto ofertado y los datos básicos de la empresa proyecta desinterés.
+      </div>
+    </label>
+    <label class="quiz-multi-option correct">
+      <span><input type="checkbox" data-opt="C"> C) Lenguaje corporal negativo</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✓ ¡Correcta!</div>
+        Evitar el contacto visual, encorvarse, cruzar los brazos de forma defensiva o mostrar nerviosismo excesivo transmite inseguridad o apatía.
+      </div>
+    </label>
+    <label class="quiz-multi-option incorrect">
+      <span><input type="checkbox" data-opt="D"> D) Preguntas inteligentes</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✗ Incorrecta</div>
+        Debe potenciarlo: formular preguntas pertinentes sobre el equipo, proyectos o expectativas demuestra interés genuino y proactividad.
+      </div>
+    </label>
+    <label class="quiz-multi-option incorrect">
+      <span><input type="checkbox" data-opt="E"> E) Investigación previa</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✗ Incorrecta</div>
+        Debe potenciarlo: conocer la actividad, cultura y sector de la empresa antes de la entrevista es fundamental.
+      </div>
+    </label>
+    <label class="quiz-multi-option correct">
+      <span><input type="checkbox" data-opt="F"> F) Actitud negativa</span>
+      <div class="feedback" style="display: none;">
+        <div class="feedback-title">✓ ¡Correcta!</div>
+        Criticar a antiguos empleadores, quejarse o mostrarse pesimista genera desconfianza inmediata en el entrevistador.
+      </div>
+    </label>
   </div>
-</details>
-
-<details class="quiz-option correct">
-  <summary>B) Falta de preparación</summary>
-  <div class="feedback">
-    <div class="feedback-title">✓ ¡Exacto! (Aspecto a evitar 1/3)</div>
-    Acudir sin haber repasado el propio CV, el puesto ofertado y los datos básicos de la empresa proyecta desinterés.
-  </div>
-</details>
-
-<details class="quiz-option correct">
-  <summary>C) Lenguaje corporal negativo</summary>
-  <div class="feedback">
-    <div class="feedback-title">✓ ¡Exacto! (Aspecto a evitar 2/3)</div>
-    Evitar el contacto visual, encorvarse, cruzar los brazos de forma defensiva o mostrar nerviosismo excesivo transmite inseguridad o apatía.
-  </div>
-</details>
-
-<details class="quiz-option incorrect">
-  <summary>D) Preguntas inteligentes</summary>
-  <div class="feedback">
-    <div class="feedback-title">✗ Debe potenciarlo</div>
-    Formular preguntas pertinentes sobre el equipo, proyectos o expectativas demuestra interés genuino y proactividad.
-  </div>
-</details>
-
-<details class="quiz-option incorrect">
-  <summary>E) Investigación previa</summary>
-  <div class="feedback">
-    <div class="feedback-title">✗ Debe potenciarlo</div>
-    Conocer la actividad, cultura y sector de la empresa antes de la entrevista es fundamental.
-  </div>
-</details>
-
-<details class="quiz-option correct">
-  <summary>F) Actitud negativa</summary>
-  <div class="feedback">
-    <div class="feedback-title">✓ ¡Exacto! (Aspecto a evitar 3/3)</div>
-    Criticar a antiguos empleadores, quejarse o mostrarse pesimista genera desconfianza inmediata en el entrevistador.
-  </div>
-</details>
+  <button type="button" class="quiz-btn-confirm">Comprobar selección</button>
+</div>
