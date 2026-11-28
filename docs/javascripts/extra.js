@@ -3,7 +3,7 @@
 // ========================================================
 function cleanLatexInTests() {
   const targets = document.querySelectorAll(
-    ".quiz-option summary, .quiz-option .feedback, .quiz-option p, .quiz-fill-inline .feedback, .quiz-multi-option .feedback"
+    ".quiz-option summary, .quiz-option .feedback, .quiz-option p, .quiz-fill-inline .feedback, .quiz-multi-option .feedback, .quiz-match-item .feedback"
   );
 
   targets.forEach((el) => {
@@ -20,7 +20,7 @@ function cleanLatexInTests() {
 }
 
 // ========================================================
-// 2. Motor interactivo unificado (Tests, Huecos y Multirrespuesta)
+// 2. Motor interactivo unificado (Tests, Huecos, Multi y Relacionar)
 // ========================================================
 const initQuizAndTooltips = () => {
   cleanLatexInTests();
@@ -66,6 +66,7 @@ const initQuizAndTooltips = () => {
     let sibling = h3.nextElementSibling;
     const choiceOptions = [];
     const fillContainers = [];
+    const matchContainers = [];
     let multiContainer = null;
 
     while (sibling && sibling.tagName !== "H3") {
@@ -73,6 +74,8 @@ const initQuizAndTooltips = () => {
         choiceOptions.push(sibling);
       } else if (sibling.classList && sibling.classList.contains("quiz-fill-inline")) {
         fillContainers.push(sibling);
+      } else if (sibling.classList && sibling.classList.contains("quiz-match-item")) {
+        matchContainers.push(sibling);
       } else if (sibling.classList && sibling.classList.contains("quiz-multi")) {
         multiContainer = sibling;
       } else {
@@ -80,6 +83,8 @@ const initQuizAndTooltips = () => {
         nestedOptions.forEach((opt) => choiceOptions.push(opt));
         const nestedFills = sibling.querySelectorAll(".quiz-fill-inline");
         nestedFills.forEach((fill) => fillContainers.push(fill));
+        const nestedMatches = sibling.querySelectorAll(".quiz-match-item");
+        nestedMatches.forEach((match) => matchContainers.push(match));
         const nestedMulti = sibling.querySelector(".quiz-multi");
         if (nestedMulti) multiContainer = nestedMulti;
       }
@@ -90,6 +95,8 @@ const initQuizAndTooltips = () => {
       questions.push({ type: "choice", elements: choiceOptions });
     } else if (fillContainers.length > 0) {
       questions.push({ type: "fill", elements: fillContainers });
+    } else if (matchContainers.length > 0) {
+      questions.push({ type: "match", elements: matchContainers });
     } else if (multiContainer) {
       questions.push({ type: "multi", element: multiContainer });
     }
@@ -237,7 +244,73 @@ const initQuizAndTooltips = () => {
     }
 
     // ----------------------------------------------------
-    // 3. TIPO MULTIRRESPUESTA (Checkboxes nativos y Confirmar)
+    // 3. TIPO COINCIDENCIA / RELACIONAR CONCEPTOS (Desplegables)
+    // ----------------------------------------------------
+    else if (q.type === "match") {
+      const containers = q.elements;
+      let questionCounted = false;
+
+      containers.forEach((container) => {
+        const select = container.querySelector(".quiz-select");
+        const btn = container.querySelector(".quiz-btn-confirm");
+        const feedback = container.querySelector(".feedback");
+        const feedbackTitle = feedback ? feedback.querySelector(".feedback-title") : null;
+
+        const validateSingleMatch = () => {
+          if (container.dataset.answered === "true") return;
+
+          const val = select ? select.value.trim() : "";
+          if (!val) return;
+
+          container.dataset.answered = "true";
+          if (select) select.disabled = true;
+          if (btn) btn.disabled = true;
+
+          if (!questionCounted) {
+            questionCounted = true;
+            answeredCount++;
+          }
+
+          const expected = select ? (select.dataset.ans || "").trim() : "";
+          const isCorrect = val === expected;
+
+          if (feedback) feedback.style.display = "block";
+
+          const pointShare = 1.0 / containers.length;
+          const penaltyShare = 0.33 / containers.length;
+
+          if (isCorrect) {
+            score += pointShare;
+            if (select) {
+              select.style.borderColor = "var(--md-code-hl-string-color, #4caf50)";
+              select.style.backgroundColor = "rgba(76, 175, 80, 0.12)";
+            }
+            if (feedbackTitle) {
+              feedbackTitle.innerHTML = `✓ Correcto: ${expected}`;
+              feedbackTitle.style.color = "var(--md-code-hl-string-color, #4caf50)";
+            }
+          } else {
+            score -= penaltyShare;
+            if (select) {
+              select.style.borderColor = "var(--md-code-hl-special-color, #ef5350)";
+              select.style.backgroundColor = "rgba(244, 67, 54, 0.12)";
+            }
+            if (feedbackTitle) {
+              feedbackTitle.innerHTML = `✗ Incorrecto (elegiste «${val}» — correcta: ${expected})`;
+              feedbackTitle.style.color = "var(--md-code-hl-special-color, #ef5350)";
+            }
+          }
+
+          cleanLatexInTests();
+          updateScoreBoard();
+        };
+
+        if (btn) btn.onclick = validateSingleMatch;
+      });
+    }
+
+    // ----------------------------------------------------
+    // 4. TIPO MULTIRRESPUESTA (Checkboxes nativos y Confirmar)
     // ----------------------------------------------------
     else if (q.type === "multi") {
       const container = q.element;
